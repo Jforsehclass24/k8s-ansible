@@ -1,9 +1,9 @@
 variable "aws_region" {
-  default = "us-west-2"
+  default = "us-east-1"
 }
 
 variable "key_name" {
-  default = "key24"
+  default = "DeVops_key"
 }
 variable "vpc_cidr" {
   default = "172.0.0.0/24"
